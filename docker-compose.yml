@@ -15,6 +15,7 @@ services:
       - QDRANT__SERVICE__PUBLIC_URL=https://qdrant.sbazar.in
       - QDRANT__SERVICE__HTTP_BIND=0.0.0.0:6333
       - QDRANT__SERVICE__GRPC_BIND=0.0.0.0:6334
+      - QDRANT__SERVICE__PUBLIC_URL=https://qdrant.sbazar.in
 
 volumes:
   qdrant_storage:
